@@ -15,7 +15,7 @@
             "openshift.io/long-description": "This will instantiate an instance of the LB MESH Integration MQTT",
             "openshift.io/provider-display-name": "Innovative Thinkrs, Inc.",
             "openshift.io/support-url": "https://docs.lbmesh.io",
-            "tags": "api,quickstart,instant-app",
+            "tags": "api,gateway,mqtt",
             "template.openshift.io/bindable": "false"
         },
         "name": "lbmesh-integ-mqtt",
