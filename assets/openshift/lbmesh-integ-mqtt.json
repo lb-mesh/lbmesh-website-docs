@@ -18,7 +18,7 @@
             "tags": "api,quickstart,instant-app",
             "template.openshift.io/bindable": "false"
         },
-        "name": "lbmesh-nodejs-example",
+        "name": "lbmesh-integ-mqtt",
         "namespace": "openshift"
     },
     "objects": [],
