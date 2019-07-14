@@ -5,14 +5,14 @@
         "app": "lbmesh-integ-mqtt",
         "template": "lbmesh-integration-mqtt-instance"
     },
-    "message": "The following service(s) have been created in your project: ${NAME}, .\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/nodejs-ex/blob/master/README.md.",
+    "message": "The following service(s) have been created in your project: ${NAME}, .\n\nFor more information about using this template, including ",
     "metadata": {
         "annotations": {
             "description": "Template for instance of LBMESH MQTT",
             "iconClass": "icon-lbmesh-mqtt",
             "openshift.io/display-name": "LBMESH MQTT",
             "openshift.io/documentation-url": "",
-            "openshift.io/long-description": "This template defines resources needed to develop a NodeJS application, including a build configuration, application deployment configuration, and database deployment configuration.  The database is stored in non-persistent storage, so this configuration should be used for experimental purposes only.",
+            "openshift.io/long-description": "This will instantiate an instance of the LB MESH Integration MQTT",
             "openshift.io/provider-display-name": "Innovative Thinkrs, Inc.",
             "openshift.io/support-url": "https://docs.lbmesh.io",
             "tags": "api,quickstart,instant-app",
