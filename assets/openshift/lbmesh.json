@@ -1,0 +1,26 @@
+{
+    "apiVersion": "template.openshift.io/v1",
+    "kind": "Template",
+    "labels": {
+        "app": "lbmesh-nodejs",
+        "template": "lbmesh-nodejs-example"
+    },
+    "message": "The following service(s) have been created in your project: ${NAME}, .\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/nodejs-ex/blob/master/README.md.",
+    "metadata": {
+        "annotations": {
+            "description": "Sample config for lbmesh",
+            "iconClass": "icon-lbmesh",
+            "openshift.io/display-name": "LBMESH FRAMEWORK",
+            "openshift.io/documentation-url": "",
+            "openshift.io/long-description": "This template defines resources needed to develop a NodeJS application, including a build configuration, application deployment configuration, and database deployment configuration.  The database is stored in non-persistent storage, so this configuration should be used for experimental purposes only.",
+            "openshift.io/provider-display-name": "Innovative Thinkrs, Inc.",
+            "openshift.io/support-url": "https://docs.lbmesh.io",
+            "tags": "quickstart,instant-app,nodejs",
+            "template.openshift.io/bindable": "false"
+        },
+        "name": "lbmesh-nodejs-example",
+        "namespace": "openshift"
+    },
+    "objects": [],
+    "parameters": []
+}
